@@ -33,24 +33,6 @@ class _MainFetchDataState extends State<MainFetchData> {
     }
   }
 
-  // _makePostRequest() async {
-  //   // set up POST request arguments
-  //   String url = 'https://jsonplaceholder.typicode.com/posts';
-  //   Map<String, String> headers = {"Content-type": "application/json"};
-  //   String json = '{"title": "Hello", "body": "body text", "userId": 1}';
-  //   // make POST request
-  //   final response = await http.post(url, headers: headers, body: json);
-  //   // check the status code for the result
-  //   int statusCode = response.statusCode;
-  //   // this API passes back the id of the new item added to the body
-  //   String body = response.body;
-  //   {
-  //   title: "Hello";
-  //   body: "body text";
-  //   userId: 1;
-  //   id: 101;
-  //   };
-  // }
 
   @override
   Widget build(BuildContext context) {
